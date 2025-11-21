@@ -102,9 +102,10 @@ El proyecto busca abordar el problema de la predicción de la deserción de clie
 - **K-Means (análisis exploratorio)**  
   Es candidato a utilizarse de forma exploratoria para agrupar clientes con características similares y detectar perfiles de riesgo de churn que puedan no ser evidentes a simple vista.
 
-# Definición del Target y los Vectores de Atributos
+### Definición del Target y los Vectores de Atributos
 
-La variable objetivo a predecir es la columna "Churn Label". Mientras que los vectores de atributos que utilizarán los modelos serán "Gender", "Senior Citizen", "Partner","Dependents", "Tenure Months","Phone Service", "Multiple Lines","Internet Service", "Online Security","Online Backup", "Device Protection""Tech Support", "Streaming TV","Streaming Movies", "Contract","Paperless Billing", "Payment Method","Monthly Charges", "Total Charges".
+La variable objetivo a predecir es la columna "Churn Label". 
+Mientras que los vectores de atributos que utilizarán los modelos serán "Gender", "Senior Citizen", "Partner","Dependents", "Tenure Months","Phone Service", "Multiple Lines","Internet Service", "Online Security","Online Backup", "Device Protection""Tech Support", "Streaming TV","Streaming Movies", "Contract","Paperless Billing", "Payment Method","Monthly Charges", "Total Charges".
 
 
 ## Limitaciones
