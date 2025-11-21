@@ -7,7 +7,7 @@ README - Análisis de Churn de Clientes de Telecomunicaciones
 El dataset utilizado es "Telco Customer Churn", disponible en Kaggle en el siguiente enlace:
 https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset/data
 
-Se trata de un conjunto de datos clásico y muy utilizado en la comunidad de Data Science, creado originalmente por IBM y posteriormente compartido en múltiples plataformas. El dataset tiene 7043 registros de clientes de una compañía de telecomunicaciones ficticia (ubicada en California) con información detallada sobre demografía, servicios contratados, tipo de contrato, facturación y comportamiento de pago.
+Se trata de un conjunto de datos clásico y muy utilizado en la comunidad de Data Science, creado originalmente por IBM y posteriormente compartido en múltiples plataformas. El dataset tiene registros de clientes de una compañía de telecomunicaciones ficticia (ubicada en California) con información detallada sobre demografía, servicios contratados, tipo de contrato, facturación y comportamiento de pago.
 
 ## Descripción de columnas (procedente del link de kaggle):
 
@@ -59,11 +59,11 @@ Se trata de un conjunto de datos clásico y muy utilizado en la comunidad de Dat
     - Modelos de clasificación.
     - Evaluación de modelos.
 
-3. Mezcla interesante de variables categóricas y numéricas, con valores disfrazados ("No internet service"), y valores nulos, lo que obliga a trabajar bien el preprocesamiento.
+3. Mezcla interesante de variables categóricas y numéricas, bueno para prácticar transformaciones de columnas como normalizado o label encoding.
 
 4. Desbalanceo moderado (aproximadamente un 26.5% churn), ideal para probar técnicas de manejo de clases desbalanceadas.
 
-5. Tamaño manejable (7043 filas), pero suficientemente grande para obtener buenos resultados significativos sin necesidad de infraestructura pesada.
+5. Tamaño manejable, pero suficientemente grande para obtener buenos resultados significativos sin necesidad de infraestructura pesada.
 
 
 ## ¿Qué problema de negocio resolvemos? 
