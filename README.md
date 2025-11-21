@@ -88,7 +88,7 @@ Por lo tanto, con un buen modelo podemos:
 
 El proyecto busca abordar el problema de la predicción de la deserción de clientes utilizando datos históricos para inferir la probabilidad de que un cliente abandone la compañía en el futuro cercano. Esto se puede utilizar para predecir de manera anticipada si a medida que pasa el tiempo un cliente dado abandonará la compañía o no.
 
-# Posibles algoritmos para predecir el churn
+### Posibles algoritmos para predecir el churn
 
 - **Regresión logística**  
   Punto de partida básico. Es rápida de entrenar y relativamente fácil de interpretar, por lo que nos sirve como modelo de referencia para comparar el resto.
