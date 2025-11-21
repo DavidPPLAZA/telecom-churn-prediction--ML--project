@@ -88,11 +88,8 @@ Por lo tanto, con un buen modelo podemos:
 
 El proyecto busca abordar el problema de la predicción de la deserción de clientes utilizando datos históricos para inferir la probabilidad de que un cliente abandone la compañía en el futuro cercano. Esto se puede utilizar para predecir de manera anticipada si a medida que pasa el tiempo un cliente dado abandonará la compañía o no.
 
-1. Tipo de Aprendizaje
 
-Se utilizará aprendizaje supervisado, específicamente algoritmos de clasificación como regresión logística, Naive Bayes y Árboles de decisión entre los que se comparará la calidad de predicción para determinar la mejor forma de predecir el abandono.
-
-2. Definición del Target y los Vectores de Atributos
+## Definición del Target y los Vectores de Atributos
 
 La variable objetivo a predecir es la columna "Churn Label". Mientras que los vectores de atributos que utilizarán los modelos serán "Gender", "Senior Citizen", "Partner","Dependents", "Tenure Months","Phone Service", "Multiple Lines","Internet Service", "Online Security","Online Backup", "Device Protection""Tech Support", "Streaming TV","Streaming Movies", "Contract","Paperless Billing", "Payment Method","Monthly Charges", "Total Charges".
 
