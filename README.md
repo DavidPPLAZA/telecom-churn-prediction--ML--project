@@ -2,6 +2,13 @@
 
 README - Análisis de Churn de Clientes de Telecomunicaciones
 
+# Alumnos: 
+
+-   Jorge Amat
+-   David Plaza
+
+Enlace del repositorio: https://github.com/David-Plaza/PRACTICA-APRENDIZAJE-AUTOM-TICO-DAVID-JORGE-.git
+
 ## Origen del Dataset: 
 
 El dataset utilizado es "Telco Customer Churn", disponible en Kaggle en el siguiente enlace:
@@ -97,3 +104,20 @@ Para concluir la descripción del proyecto nos gustaría mencionar aspectos a co
 Aunque hemos encontrado inconsistencias como datos que no corresponden, eliminación de columnas irrelevantes o valores en blanco que sustituir, la naturaleza sintética del dataset hace que, a nivel de limpieza, esté relativamente limpio en comparación con los datos brutos de una empresa real.
 
 Por otro lado queremos destacar que más allá de las predicciones ha sido de gran ayuda entrenar un modelo de regresión logística para comprender y limpiar los datos, porque al principio nos daba muy mal resultado y nos ha hecho preguntarnos si realmente el dataset estaba tan limpio como pensábamos.
+
+
+## Posibles algoritmos para predecir el churn
+
+Para abordar el problema de churn como una tarea de clasificación binaria, consideramos varios algoritmos sencillos pero útiles tanto a nivel técnico como de negocio:
+
+- **Regresión logística**  
+  Punto de partida básico. Es rápida de entrenar y relativamente fácil de interpretar, por lo que nos sirve como modelo de referencia para comparar el resto.
+
+- **Naive Bayes**  
+  Puede ser adecuado cuando trabajamos con muchas variables categóricas. Nos permite obtener una primera aproximación rápida al problema.
+
+- **Árboles de decisión**  
+  Pueden ayudar a entender qué factores están más relacionados con el abandono.
+
+- **K-Means (análisis exploratorio)**  
+  Es candidato a utilizarse de forma exploratoria para agrupar clientes con características similares y detectar perfiles de riesgo de churn que puedan no ser evidentes a simple vista.
