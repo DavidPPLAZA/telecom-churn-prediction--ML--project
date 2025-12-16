@@ -196,7 +196,7 @@ A grandes rasgos, el churn tiende a concentrarse en perfiles como:
 - Menor **antigüedad** (tenure bajo).
 - Ciertas combinaciones de servicios/soporte (cuando el cliente siente que no le compensa o tiene incidencias).
 - Variables de facturación pueden influir, pero no explican todo por sí solas.
--En el análisis exploratorio con clustering (K-Means), pudimos observar que aparecen grupos de clientes con patrones claros (por ejemplo, distintos niveles de tenure, tipo de contrato y cargos mensuales). Esto ayuda a identificar perfiles de riesgo y a plantear acciones de retención más segmentadas (aunque no es el modelo final de predicción).
+- En el análisis exploratorio con clustering (K-Means), pudimos observar que aparecen grupos de clientes con patrones claros (por ejemplo, distintos niveles de tenure, tipo de contrato y cargos mensuales). Esto ayuda a identificar perfiles de riesgo y a plantear acciones de retención más segmentadas (aunque no es el modelo final de predicción).
 
 Esto sugiere acciones típicas de retención:
 - Ofertas dirigidas a clientes **mes a mes** para migrar a contratos más largos.
