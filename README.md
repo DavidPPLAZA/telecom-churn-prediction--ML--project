@@ -3,7 +3,7 @@
 README - Análisis de Churn de Clientes de Telecomunicaciones
 
 # Alumnos: 
-s
+
 -   Jorge Amat
 -   David Plaza
 
