@@ -178,8 +178,8 @@ Tabla (métricas de la **clase churn = 1**):
 
 | Modelo | Precision (churn=1) | Recall (churn=1) | F1 (churn=1) |
 |---|---:|---:|---:|
-| Regresión logística + oversampling | 0.52 | 0.80 | 0.63 |
-| Naive Bayes Gaussiano + oversampling | 0.52 | 0.79 | 0.63 |
+| Regresión logística | 0.52 | 0.80 | 0.63 |
+| Naive Bayes Gaussiano | 0.52 | 0.79 | 0.63 |
 | Random Forest | 0.54 | 0.80 | 0.64 |
 | XGBoost | 0.52 | 0.83 | 0.64 |
 | Red neuronal (Torch) | 0.49 | 0.88 | 0.63 |
