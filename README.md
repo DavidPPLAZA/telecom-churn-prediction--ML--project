@@ -172,17 +172,16 @@ Modelos probados:
 ----------------------------------------------------------
 
 ## Resultados principales 
-*Nota:* estos números son del **test** (con un split fijo) y sirven para comparar modelos en esta práctica.
 
 Tabla (métricas de la **clase churn = 1**):
 
-| Modelo | Precision (churn=1) | Recall (churn=1) | F1 (churn=1) |
+| Modelo | Precision | Recall | F1 score |
 |---|---:|---:|---:|
 | Regresión logística | 0.52 | 0.80 | 0.63 |
 | Naive Bayes Gaussiano | 0.52 | 0.79 | 0.63 |
 | Random Forest | 0.54 | 0.80 | 0.64 |
 | XGBoost | 0.52 | 0.83 | 0.64 |
-| Red neuronal (Torch) | 0.49 | 0.88 | 0.63 |
+| Red neuronal | 0.49 | 0.88 | 0.63 |
 
 Lectura rápida:
 - **XGBoost**: mejor equilibrio global (recall alto manteniendo una precisión razonable).
