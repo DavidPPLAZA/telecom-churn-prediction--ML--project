@@ -96,9 +96,9 @@ El proyecto busca abordar el problema de la predicción de la deserción de clie
 - **Naive Bayes**  
   Puede ser adecuado cuando trabajamos con muchas variables categóricas. Nos permite obtener una primera aproximación rápida al problema.
 
-- **Árboles de decisión**  
-  Pueden ayudar a entender qué factores están más relacionados con el abandono.
-
+- **Random Forest y XGBoost**  
+  Modelos de ensemble learning basados en árboles, que combinan múltiples clasificadores para mejorar la predicción; robustos frente al sobreajuste y capaces de capturar patrones complejos en los datos, lo que los hace ideales para predecir churn.
+  
 - **K-Means (análisis exploratorio)**  
   Es candidato a utilizarse de forma exploratoria para agrupar clientes con características similares y detectar perfiles de riesgo de churn que puedan no ser evidentes a simple vista.
 
